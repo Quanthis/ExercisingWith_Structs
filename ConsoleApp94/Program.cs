@@ -17,13 +17,13 @@ namespace ConsoleApp94
         static void Main(string[] args)
         {
             Osoba o;
-            Console.Write("Podaj Imię: ");
+            Console.Write("Name: ");
             o.Imię = Console.ReadLine();
-            Console.Write("Podaj Nazwisko: ");
+            Console.Write("Surname: ");
             o.Nazwisko = Console.ReadLine();
-            Console.Write("Podaj rok urodzenia: ");
+            Console.Write("Year of Birth: ");
             o.RokUrodzenia = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("{0} {1} urodził się w {2} roku.", o.Imię, o.Nazwisko, o.RokUrodzenia);
+            Console.WriteLine("{0} {1} was born in {2}.", o.Imię, o.Nazwisko, o.RokUrodzenia);
             Console.ReadKey();
         }
     }
